@@ -1,0 +1,182 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	height:100px;
+	width:100%;
+	background-color:#a5d1da;
+	
+}
+div.first{float:left;
+          padding:15px;
+          margin:10px;}
+div.first h1{display:inline-block;}
+div.second{float:right;
+	      padding:15px;
+	      margin:15px;
+           }
+div.second li {
+	           display:inline-block;
+	           
+	         
+}
+/* replacing the underline */
+div.second li a{
+	text-decoration:none;
+	padding:10px;
+	margin-bottom:20px;
+
+}
+.eight{height:250px;
+	width:100%;
+    background-color:#a5d1da;}
+.eight div>h1{float:left;
+                     
+                     margin-left:120px;
+                     margin-top:40px;
+                     font-size:50px;
+                     text-align:center;
+                     color:white;}
+.eight div>a{
+                       float:right;
+                       margin-right:340px;
+                       
+}
+a:hover{color:red;}
+
+li.active{border:1px solid black;
+            background-color:black;
+            padding:4px;
+            border-radius:12%;}
+
+
+section.row{padding:10px;
+            margin:10px        
+           background-color:#fefefe;}
+
+
+.col-sm-4{display:inline-block;
+          width:33%;
+          text-align:center;}
+
+section.third{
+	background-color:#99d2a5;
+
+
+}
+
+div.kathmandu>h1{text-align:center;
+                   padding:20px;
+                   margin:20px;
+                   color:white;}
+                   div.kathmandu>p{color:white;}
+div.kathmandu h1{
+	font-size:40px;
+
+
+}
+
+
+div.kathmandu p{font-size:20px;
+                text-align:center;}
+ul.this{
+    margin-top:20px;
+    margin-bottom:20px;
+	margin-left:340px;
+}
+ul.this li{
+	display:inline-block;
+	text-align:center;
+	margin:8px;
+	
+
+}
+ul.this li a{text-decoration:none;}
+li.activeo{border:1px solid white;
+           background-color:white;
+          border-radius:19%;}
+li.passive{border:1px solid white;
+           border-radius:19%;}
+.col-sm-4 p{color:black;}
+
+.pic img{width:28%;
+	float:right;
+	display:inline-block;
+    padding:20px;
+    margin:10px;
+    border-radius:30%;}
+.outside{padding:20px;
+         margin:20px 20px 20px 540px;
+         font-size:20px;
+         text-align:center;}
+section.four{
+	         height:600px;
+}
+
+
+div.america{height:200px;
+            margin:10px;
+            padding:10px;}
+
+.chock>img{float:left;
+           display:inline;
+           padding:10px;
+           margin-right:20px;
+           margin-left:200px;
+           }
+       
+
+div.chisapani>button{padding:10px;
+                     margin:10px;
+                     background-color:#9AD3A6;}
+
+
+/* for another layer */
+div.col{float:left;
+            display:inline-block;}
+
+div.col>img{float:right;
+                display:inline-block;}
+div.row{
+	         padding:10px;
+	         margin:10px;
+	         
+}
+
+
+
+div.row>div.col>button{padding:10px;
+                            margin:10px;
+                            background-color:#9AD3A6;}
+
+
+div.col{padding-left:200px;}
+div.col-sm>img{padding-left:120px;}
+section.five{height:600px;
+	background-color:#e1b8c8;
+	         
+
+
+}
+
+.images img{float:right;
+	        display:inline-block;
+	        width:30%;
+	        
+	        padding:7px 15px 7px 7px; ;
+	        margin-right:10px;
+}
+.images{margin:20px;
+        padding:20px;}
+section.five,
+div.new{text-align:center;
+             padding:10px 10px 20px 10px;
+             color:#fff9fd;}
+
+
+
+      
+
+
+

@@ -1,0 +1,12 @@
+#two{margin-top:30px;
+    height:380px;
+    width:400px;}
+#one{margin-top:90px;}
+#three{margin-top:90px;}
+#pri1{color:orange;
+      text-align:center;}
+#pri{color:blue;
+     text-align:center;}
+
+body{background-image:url('../img/happy2.jpg');
+}

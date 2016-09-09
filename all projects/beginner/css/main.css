@@ -1,0 +1,97 @@
+body{
+	background-color:#aeaeae;
+	margin:0;
+}
+/*side wide wrapper*/
+.wrapper{
+	width:80%;
+	margin-left:10;
+
+}
+/*header*/
+header{
+	background-color:#e7e5e6;
+	height:140px;
+}
+header .logo{
+	background-color: #aeaeae;
+	width:235px;
+	position: relative;
+	top:25px;
+	left:35px;
+	font-size: 48px;
+	padding:15px 10px 15px 45px;
+	text-transform:uppercase;
+}
+
+/* for navigation*/
+nav{
+	background-color: #a5a3a4;
+}
+nav ul{
+	padding-left:0;
+	margin:0;
+
+}
+nav li{
+	display: inline-block;
+	padding:15px 25px;
+}
+nav a{
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+/* sections*/
+section{
+	width:100%;
+}
+
+/* main div*/
+.main{
+	background-color:#f3eff0;
+	width:70%;
+	float:left;
+	height:465px;
+}
+.main h1{
+	padding-left: 35px;
+}
+.main p{
+	padding:5px 35px;
+}
+/*sidebar div*/
+.sidebar{
+	background-color: #cecccd;
+	width:30%;
+	float:right;
+	height:465px;
+	
+}
+
+/* footer*/
+footer{
+	clear:both;
+	background-color:#514f50;
+	font-size:14px;
+	padding:9px 0;
+}
+
+footer p{
+	margin:0;
+	color:white;
+	padding-left:35px;
+}
+/* this is the starting of the media query*/
+@media(max-width:482px){
+	.sidebar{
+		display:none;
+		margin:none;
+	}
+}
+@media(max-width:433px){
+	.logo{
+		width:135px;
+		font-size:none;
+	}
+}

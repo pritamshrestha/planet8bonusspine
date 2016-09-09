@@ -1,0 +1,10 @@
+ h1{text-align:center;
+ 	color:red;
+}
+.col-sm-9{
+	color:blue;
+	text-decoration: none;
+}
+.col-sm-3{color:green;
+    }
+.col-sm-3 a{text-decoration:none;}
